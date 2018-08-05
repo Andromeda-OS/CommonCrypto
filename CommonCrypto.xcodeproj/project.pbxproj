@@ -2163,6 +2163,7 @@
 		054BBEA605F6A8DE00344873 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0940;
 			};
 			buildConfigurationList = C27AD0910987FCDA001272E0 /* Build configuration list for PBXProject "CommonCrypto" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2604,6 +2605,7 @@
 		05CE94320A37850A007C91D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				PRODUCT_NAME = "Copy Open Source Docs";
@@ -2616,7 +2618,7 @@
 			baseConfigurationReference = 12A1ADD71207419E000C30A4 /* CommonCrypto_localtest.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -2634,7 +2636,7 @@
 			baseConfigurationReference = 12A1ADD71207419E000C30A4 /* CommonCrypto_localtest.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -2652,6 +2654,7 @@
 			baseConfigurationReference = 12A1ADD71207419E000C30A4 /* CommonCrypto_localtest.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -2668,6 +2671,7 @@
 			baseConfigurationReference = 12A1ADD71207419E000C30A4 /* CommonCrypto_localtest.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -2682,6 +2686,34 @@
 		12F25D8511F7BF8A0036BC8E /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx.internal;
 			};
 			name = Development;
@@ -2690,6 +2722,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12FA10D311F7AB5000917A4E /* CommonCrypto_development.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
@@ -2708,6 +2741,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12FA10D111F7AAE400917A4E /* CommonCrypto_umbrellaMember_development.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				EXPORTED_SYMBOLS_FILE = Source/CommonCrypto.exp;
 				LINK_WITH_STANDARD_LIBRARIES = NO;
 				OTHER_LDFLAGS = (
@@ -2729,6 +2763,7 @@
 		12F25D8811F7BF8A0036BC8E /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				PRODUCT_NAME = "Copy Open Source Docs";
@@ -2740,12 +2775,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12790C7511F7C4BA0044EFE5 /* CommonCrypto_unittest_development.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
 				);
-				GCC_ENABLE_OBJC_GC = supported;
 				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 			};
 			name = Development;
 		};
@@ -2753,9 +2789,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12790C7511F7C4BA0044EFE5 /* CommonCrypto_unittest_development.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Unit Test World";
 				ZERO_LINK = NO;
 			};
@@ -2765,6 +2803,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12FA10D011F7AACE00917A4E /* CommonCrypto_umbrellaMember_deployment.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				EXPORTED_SYMBOLS_FILE = Source/CommonCrypto.exp;
 				OTHER_CFLAGS = (
 					"-fstack-protector-all",
@@ -2780,6 +2819,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12FA10D111F7AAE400917A4E /* CommonCrypto_umbrellaMember_development.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				EXPORTED_SYMBOLS_FILE = Source/CommonCrypto.exp;
 				OTHER_CFLAGS = (
 					"-fstack-protector-all",
@@ -2795,12 +2835,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12790C7411F7C4BA0044EFE5 /* CommonCrypto_unittest_deployment.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
 				);
-				GCC_ENABLE_OBJC_GC = supported;
 				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 			};
 			name = Release;
 		};
@@ -2808,7 +2849,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12790C7411F7C4BA0044EFE5 /* CommonCrypto_unittest_deployment.xcconfig */;
 			buildSettings = {
-				GCC_ENABLE_OBJC_GC = supported;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 			};
 			name = Release;
 		};
@@ -2816,7 +2858,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12790C7511F7C4BA0044EFE5 /* CommonCrypto_unittest_development.xcconfig */;
 			buildSettings = {
-				GCC_ENABLE_OBJC_GC = supported;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 			};
 			name = Development;
 		};
@@ -2825,6 +2868,7 @@
 			baseConfigurationReference = 12790C7411F7C4BA0044EFE5 /* CommonCrypto_unittest_deployment.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -2839,6 +2883,7 @@
 					AppKit,
 				);
 				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = CommonCryptoTestTool;
 				ZERO_LINK = NO;
 			};
@@ -2849,6 +2894,7 @@
 			baseConfigurationReference = 12790C7511F7C4BA0044EFE5 /* CommonCrypto_unittest_development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -2862,6 +2908,7 @@
 					Foundation,
 				);
 				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = CommonCryptoTestTool;
 			};
 			name = Development;
@@ -2870,9 +2917,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12790C7411F7C4BA0044EFE5 /* CommonCrypto_unittest_deployment.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Unit Test World";
 				ZERO_LINK = NO;
 			};
@@ -2882,6 +2931,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12FA10D011F7AACE00917A4E /* CommonCrypto_umbrellaMember_deployment.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				EXPORTED_SYMBOLS_FILE = Source/CommonCrypto.exp;
 				LINK_WITH_STANDARD_LIBRARIES = NO;
 				OTHER_LDFLAGS = (
@@ -2904,6 +2954,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12FA10D211F7AB3E00917A4E /* CommonCrypto_deployment.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
@@ -2921,7 +2972,32 @@
 		C27AD0930987FCDA001272E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				SDKROOT = macosx.internal;
 			};
 			name = Release;
