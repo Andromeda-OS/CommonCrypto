@@ -15,8 +15,6 @@
 
 PRODUCT_NAME = commonCrypto
 
-ARCHS = $(NATIVE_ARCH) $(ARCHS_STANDARD_64_BIT) arm
-
 // Minimum OS version
 MACOSX_DEPLOYMENT_TARGET =
 
