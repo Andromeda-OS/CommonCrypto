@@ -21,6 +21,7 @@
  * @APPLE_LICENSE_HEADER_END@
  */
 
+#define __ASSERT_MACROS_DEFINE_VERSIONS_WITHOUT_UNDERSCORES 1
 #include "CommonSymmetricKeywrap.h"
 #include <AssertMacros.h>
 #include <stdint.h>
