@@ -2771,7 +2771,6 @@
 					"$(inherited)",
 					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
 				);
-				GCC_ENABLE_OBJC_GC = supported;
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 			};
@@ -2834,7 +2833,6 @@
 					"$(inherited)",
 					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
 				);
-				GCC_ENABLE_OBJC_GC = supported;
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 			};
@@ -2845,7 +2843,6 @@
 			baseConfigurationReference = 12790C7411F7C4BA0044EFE5 /* CommonCrypto_unittest_deployment.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				GCC_ENABLE_OBJC_GC = supported;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 			};
 			name = Release;
@@ -2855,7 +2852,6 @@
 			baseConfigurationReference = 12790C7511F7C4BA0044EFE5 /* CommonCrypto_unittest_development.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				GCC_ENABLE_OBJC_GC = supported;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 			};
 			name = Development;
