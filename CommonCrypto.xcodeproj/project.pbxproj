@@ -11,7 +11,7 @@
 			isa = PBXAggregateTarget;
 			buildConfigurationList = C27AD08D0987FCDA001272E0 /* Build configuration list for PBXAggregateTarget "world" */;
 			buildPhases = (
-				D6658DC80BD817B600D18063 /* CopyFiles */,
+				D6658DC80BD817B600D18063 /* Copy Files */,
 			);
 			dependencies = (
 				5D936FFB110E7FFF006855B0 /* PBXTargetDependency */,
@@ -24,7 +24,7 @@
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 05CE94300A37850A007C91D6 /* Build configuration list for PBXAggregateTarget "Copy Open Source Docs" */;
 			buildPhases = (
-				05CE94280A3784D4007C91D6 /* CopyFiles */,
+				05CE94280A3784D4007C91D6 /* Copy Files */,
 				05CE942F0A37850A007C91D6 /* CopyFiles */,
 			);
 			dependencies = (
@@ -70,7 +70,7 @@
 		05C4416F09D4BACE002066D1 /* e_os2.h in Headers */ = {isa = PBXBuildFile; fileRef = 05C4416E09D4BACE002066D1 /* e_os2.h */; };
 		05C4417309D4BB0B002066D1 /* opensslconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 05C4417209D4BB0B002066D1 /* opensslconf.h */; };
 		05C70C5509D471C30004B8F4 /* spr.h in Headers */ = {isa = PBXBuildFile; fileRef = 05C70C5309D471C30004B8F4 /* spr.h */; };
-		05CE942D0A37850A007C91D6 /* CommonCrypto.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05CE942B0A37850A007C91D6 /* CommonCrypto.plist */; };
+		05CE942D0A37850A007C91D6 /* CommonCrypto.plist in Copy Files */ = {isa = PBXBuildFile; fileRef = 05CE942B0A37850A007C91D6 /* CommonCrypto.plist */; };
 		05D8D97D09E411AB00E03504 /* CommonHMAC.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D8D97C09E411AA00E03504 /* CommonHMAC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05D9F61909D85F4A00AD30A7 /* CommonCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F61609D85F4A00AD30A7 /* CommonCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05E319BD063890C100C4AD24 /* sha2.c in Sources */ = {isa = PBXBuildFile; fileRef = 05E319B7063890C100C4AD24 /* sha2.c */; };
@@ -262,13 +262,13 @@
 		48D5638911A65316008EBBBF /* AES.s in Sources */ = {isa = PBXBuildFile; fileRef = 48D5637B11A65316008EBBBF /* AES.s */; };
 		48D5638B11A65316008EBBBF /* DecryptCBC.s in Sources */ = {isa = PBXBuildFile; fileRef = 48D5637D11A65316008EBBBF /* DecryptCBC.s */; };
 		48D5638C11A65316008EBBBF /* EncryptCBC.s in Sources */ = {isa = PBXBuildFile; fileRef = 48D5637E11A65316008EBBBF /* EncryptCBC.s */; };
-		48F7B00112F248C900E70774 /* CCCalibratePBKDF.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 48F7AFFF12F2488500E70774 /* CCCalibratePBKDF.3cc */; };
-		48F7B00212F248C900E70774 /* CCCommonKeyDerivation.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 48F7B00012F2488500E70774 /* CCCommonKeyDerivation.3cc */; };
-		48F7B00812F248E600E70774 /* CCKeyDerivationPBKDF.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 48F7B00312F248E600E70774 /* CCKeyDerivationPBKDF.3cc */; };
-		48F7B00912F248E600E70774 /* CCSymmetricKeyUnwrap.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 48F7B00412F248E600E70774 /* CCSymmetricKeyUnwrap.3cc */; };
-		48F7B00A12F248E600E70774 /* CCSymmetricKeyWrap.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 48F7B00512F248E600E70774 /* CCSymmetricKeyWrap.3cc */; };
-		48F7B00B12F248E700E70774 /* CCSymmetricUnwrappedSize.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 48F7B00612F248E600E70774 /* CCSymmetricUnwrappedSize.3cc */; };
-		48F7B00C12F248E700E70774 /* CCSymmetricWrappedSize.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 48F7B00712F248E600E70774 /* CCSymmetricWrappedSize.3cc */; };
+		48F7B00112F248C900E70774 /* CCCalibratePBKDF.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = 48F7AFFF12F2488500E70774 /* CCCalibratePBKDF.3cc */; };
+		48F7B00212F248C900E70774 /* CCCommonKeyDerivation.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = 48F7B00012F2488500E70774 /* CCCommonKeyDerivation.3cc */; };
+		48F7B00812F248E600E70774 /* CCKeyDerivationPBKDF.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = 48F7B00312F248E600E70774 /* CCKeyDerivationPBKDF.3cc */; };
+		48F7B00912F248E600E70774 /* CCSymmetricKeyUnwrap.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = 48F7B00412F248E600E70774 /* CCSymmetricKeyUnwrap.3cc */; };
+		48F7B00A12F248E600E70774 /* CCSymmetricKeyWrap.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = 48F7B00512F248E600E70774 /* CCSymmetricKeyWrap.3cc */; };
+		48F7B00B12F248E700E70774 /* CCSymmetricUnwrappedSize.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = 48F7B00612F248E600E70774 /* CCSymmetricUnwrappedSize.3cc */; };
+		48F7B00C12F248E700E70774 /* CCSymmetricWrappedSize.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = 48F7B00712F248E600E70774 /* CCSymmetricWrappedSize.3cc */; };
 		48F7F29912B2EF6000AF4587 /* CommonDigest.h in Headers */ = {isa = PBXBuildFile; fileRef = 054BBECD05F6AA7200344873 /* CommonDigest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48F7F29A12B2EF6000AF4587 /* md4_locl.h in Headers */ = {isa = PBXBuildFile; fileRef = 054BBED505F6AA8900344873 /* md4_locl.h */; };
 		48F7F29B12B2EF6000AF4587 /* md5_locl.h in Headers */ = {isa = PBXBuildFile; fileRef = 054BBED705F6AA8900344873 /* md5_locl.h */; };
@@ -484,54 +484,54 @@
 		795CA41F0D34459D00BAE6A2 /* rc2.c in Sources */ = {isa = PBXBuildFile; fileRef = 795CA3FE0D34431400BAE6A2 /* rc2.c */; };
 		AAAF0B9E0DC7A3DA0044DA03 /* sha1edpBigEndian.s in Sources */ = {isa = PBXBuildFile; fileRef = AAB5CBCD0DC6AB6D0019E0E6 /* sha1edpBigEndian.s */; };
 		AAAF0B9F0DC7A3DA0044DA03 /* sha1edpLittleEndian.s in Sources */ = {isa = PBXBuildFile; fileRef = AAB5CBCE0DC6AB6D0019E0E6 /* sha1edpLittleEndian.s */; };
-		D6658D950BD8178400D18063 /* CC_crypto.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05DF6D1109CF2D7200D9A3E8 /* CC_crypto.3cc */; };
-		D6658D960BD8178400D18063 /* CC_MD2.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5B60BC6D67000878B42 /* CC_MD2.3cc */; };
-		D6658D970BD8178400D18063 /* CC_MD2_Final.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5B70BC6D67000878B42 /* CC_MD2_Final.3cc */; };
-		D6658D980BD8178400D18063 /* CC_MD2_Init.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5B80BC6D67000878B42 /* CC_MD2_Init.3cc */; };
-		D6658D990BD8178400D18063 /* CC_MD2_Update.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5B90BC6D67000878B42 /* CC_MD2_Update.3cc */; };
-		D6658D9A0BD8178400D18063 /* CC_MD4.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5BA0BC6D67000878B42 /* CC_MD4.3cc */; };
-		D6658D9B0BD8178400D18063 /* CC_MD4_Final.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5BB0BC6D67000878B42 /* CC_MD4_Final.3cc */; };
-		D6658D9C0BD8178400D18063 /* CC_MD4_Init.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5BC0BC6D67000878B42 /* CC_MD4_Init.3cc */; };
-		D6658D9D0BD8178400D18063 /* CC_MD4_Update.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5BD0BC6D67000878B42 /* CC_MD4_Update.3cc */; };
-		D6658D9E0BD8178400D18063 /* CC_MD5.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05DF6D1209CF2D7200D9A3E8 /* CC_MD5.3cc */; };
-		D6658D9F0BD8178400D18063 /* CC_MD5_Final.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5BE0BC6D67000878B42 /* CC_MD5_Final.3cc */; };
-		D6658DA00BD8178400D18063 /* CC_MD5_Init.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5BF0BC6D67000878B42 /* CC_MD5_Init.3cc */; };
-		D6658DA10BD8178400D18063 /* CC_MD5_Update.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5C00BC6D67000878B42 /* CC_MD5_Update.3cc */; };
-		D6658DA20BD8178400D18063 /* CC_SHA.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05DF6D1309CF2D7200D9A3E8 /* CC_SHA.3cc */; };
-		D6658DA30BD8178400D18063 /* CC_SHA1.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5C10BC6D67000878B42 /* CC_SHA1.3cc */; };
-		D6658DA40BD8178400D18063 /* CC_SHA1_Final.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5C20BC6D67000878B42 /* CC_SHA1_Final.3cc */; };
-		D6658DA50BD8178400D18063 /* CC_SHA1_Init.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5C30BC6D67000878B42 /* CC_SHA1_Init.3cc */; };
-		D6658DA60BD8178400D18063 /* CC_SHA1_Update.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5C40BC6D67000878B42 /* CC_SHA1_Update.3cc */; };
-		D6658DA70BD8178400D18063 /* CC_SHA224.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5C50BC6D67000878B42 /* CC_SHA224.3cc */; };
-		D6658DA80BD8178400D18063 /* CC_SHA224_Final.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5C60BC6D67000878B42 /* CC_SHA224_Final.3cc */; };
-		D6658DA90BD8178400D18063 /* CC_SHA224_Init.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5C70BC6D67000878B42 /* CC_SHA224_Init.3cc */; };
-		D6658DAA0BD8178400D18063 /* CC_SHA224_Update.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5C80BC6D67000878B42 /* CC_SHA224_Update.3cc */; };
-		D6658DAB0BD8178400D18063 /* CC_SHA256.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5C90BC6D67000878B42 /* CC_SHA256.3cc */; };
-		D6658DAC0BD8178400D18063 /* CC_SHA256_Final.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5CA0BC6D67000878B42 /* CC_SHA256_Final.3cc */; };
-		D6658DAD0BD8178400D18063 /* CC_SHA256_Init.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5CB0BC6D67000878B42 /* CC_SHA256_Init.3cc */; };
-		D6658DAE0BD8178400D18063 /* CC_SHA256_Update.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5CC0BC6D67000878B42 /* CC_SHA256_Update.3cc */; };
-		D6658DAF0BD8178400D18063 /* CC_SHA384.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5CD0BC6D67000878B42 /* CC_SHA384.3cc */; };
-		D6658DB00BD8178400D18063 /* CC_SHA384_Final.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5CE0BC6D67000878B42 /* CC_SHA384_Final.3cc */; };
-		D6658DB10BD8178400D18063 /* CC_SHA384_Init.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5CF0BC6D67000878B42 /* CC_SHA384_Init.3cc */; };
-		D6658DB20BD8178400D18063 /* CC_SHA384_Update.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5D00BC6D67000878B42 /* CC_SHA384_Update.3cc */; };
-		D6658DB30BD8178400D18063 /* CC_SHA512.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5D10BC6D67000878B42 /* CC_SHA512.3cc */; };
-		D6658DB40BD8178400D18063 /* CC_SHA512_Final.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5D20BC6D67000878B42 /* CC_SHA512_Final.3cc */; };
-		D6658DB50BD8178400D18063 /* CC_SHA512_Init.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5D30BC6D67000878B42 /* CC_SHA512_Init.3cc */; };
-		D6658DB60BD8178400D18063 /* CC_SHA512_Update.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5D40BC6D67000878B42 /* CC_SHA512_Update.3cc */; };
-		D6658DB70BD8178400D18063 /* CCCrypt.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5D50BC6D67000878B42 /* CCCrypt.3cc */; };
-		D6658DB80BD8178400D18063 /* CCCryptor.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5D60BC6D67000878B42 /* CCCryptor.3cc */; };
-		D6658DB90BD8178400D18063 /* CCCryptorCreate.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5D70BC6D67000878B42 /* CCCryptorCreate.3cc */; };
-		D6658DBA0BD8178400D18063 /* CCCryptorFinal.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5D80BC6D67000878B42 /* CCCryptorFinal.3cc */; };
-		D6658DBB0BD8178400D18063 /* CCCryptorGetOutputLength.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5D90BC6D67000878B42 /* CCCryptorGetOutputLength.3cc */; };
-		D6658DBC0BD8178400D18063 /* CCCryptorRelease.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5DA0BC6D67000878B42 /* CCCryptorRelease.3cc */; };
-		D6658DBD0BD8178400D18063 /* CCCryptorReset.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5DB0BC6D67000878B42 /* CCCryptorReset.3cc */; };
-		D6658DBE0BD8178400D18063 /* CCCryptorUpdate.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5DC0BC6D67000878B42 /* CCCryptorUpdate.3cc */; };
-		D6658DBF0BD8178400D18063 /* CCHmac.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5DD0BC6D67000878B42 /* CCHmac.3cc */; };
-		D6658DC00BD8178400D18063 /* CCHmacFinal.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5DE0BC6D67000878B42 /* CCHmacFinal.3cc */; };
-		D6658DC10BD8178400D18063 /* CCHmacInit.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5DF0BC6D67000878B42 /* CCHmacInit.3cc */; };
-		D6658DC20BD8178400D18063 /* CCHmacUpdate.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5E00BC6D67000878B42 /* CCHmacUpdate.3cc */; };
-		D6658DC30BD8178400D18063 /* CCryptorCreateFromData.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5E10BC6D67000878B42 /* CCryptorCreateFromData.3cc */; };
-		D6658DC40BD8178400D18063 /* Common Crypto.3cc in CopyFiles */ = {isa = PBXBuildFile; fileRef = D671B5E20BC6D67000878B42 /* Common Crypto.3cc */; };
+		D6658D950BD8178400D18063 /* CC_crypto.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = 05DF6D1109CF2D7200D9A3E8 /* CC_crypto.3cc */; };
+		D6658D960BD8178400D18063 /* CC_MD2.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5B60BC6D67000878B42 /* CC_MD2.3cc */; };
+		D6658D970BD8178400D18063 /* CC_MD2_Final.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5B70BC6D67000878B42 /* CC_MD2_Final.3cc */; };
+		D6658D980BD8178400D18063 /* CC_MD2_Init.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5B80BC6D67000878B42 /* CC_MD2_Init.3cc */; };
+		D6658D990BD8178400D18063 /* CC_MD2_Update.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5B90BC6D67000878B42 /* CC_MD2_Update.3cc */; };
+		D6658D9A0BD8178400D18063 /* CC_MD4.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5BA0BC6D67000878B42 /* CC_MD4.3cc */; };
+		D6658D9B0BD8178400D18063 /* CC_MD4_Final.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5BB0BC6D67000878B42 /* CC_MD4_Final.3cc */; };
+		D6658D9C0BD8178400D18063 /* CC_MD4_Init.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5BC0BC6D67000878B42 /* CC_MD4_Init.3cc */; };
+		D6658D9D0BD8178400D18063 /* CC_MD4_Update.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5BD0BC6D67000878B42 /* CC_MD4_Update.3cc */; };
+		D6658D9E0BD8178400D18063 /* CC_MD5.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = 05DF6D1209CF2D7200D9A3E8 /* CC_MD5.3cc */; };
+		D6658D9F0BD8178400D18063 /* CC_MD5_Final.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5BE0BC6D67000878B42 /* CC_MD5_Final.3cc */; };
+		D6658DA00BD8178400D18063 /* CC_MD5_Init.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5BF0BC6D67000878B42 /* CC_MD5_Init.3cc */; };
+		D6658DA10BD8178400D18063 /* CC_MD5_Update.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5C00BC6D67000878B42 /* CC_MD5_Update.3cc */; };
+		D6658DA20BD8178400D18063 /* CC_SHA.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = 05DF6D1309CF2D7200D9A3E8 /* CC_SHA.3cc */; };
+		D6658DA30BD8178400D18063 /* CC_SHA1.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5C10BC6D67000878B42 /* CC_SHA1.3cc */; };
+		D6658DA40BD8178400D18063 /* CC_SHA1_Final.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5C20BC6D67000878B42 /* CC_SHA1_Final.3cc */; };
+		D6658DA50BD8178400D18063 /* CC_SHA1_Init.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5C30BC6D67000878B42 /* CC_SHA1_Init.3cc */; };
+		D6658DA60BD8178400D18063 /* CC_SHA1_Update.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5C40BC6D67000878B42 /* CC_SHA1_Update.3cc */; };
+		D6658DA70BD8178400D18063 /* CC_SHA224.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5C50BC6D67000878B42 /* CC_SHA224.3cc */; };
+		D6658DA80BD8178400D18063 /* CC_SHA224_Final.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5C60BC6D67000878B42 /* CC_SHA224_Final.3cc */; };
+		D6658DA90BD8178400D18063 /* CC_SHA224_Init.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5C70BC6D67000878B42 /* CC_SHA224_Init.3cc */; };
+		D6658DAA0BD8178400D18063 /* CC_SHA224_Update.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5C80BC6D67000878B42 /* CC_SHA224_Update.3cc */; };
+		D6658DAB0BD8178400D18063 /* CC_SHA256.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5C90BC6D67000878B42 /* CC_SHA256.3cc */; };
+		D6658DAC0BD8178400D18063 /* CC_SHA256_Final.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5CA0BC6D67000878B42 /* CC_SHA256_Final.3cc */; };
+		D6658DAD0BD8178400D18063 /* CC_SHA256_Init.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5CB0BC6D67000878B42 /* CC_SHA256_Init.3cc */; };
+		D6658DAE0BD8178400D18063 /* CC_SHA256_Update.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5CC0BC6D67000878B42 /* CC_SHA256_Update.3cc */; };
+		D6658DAF0BD8178400D18063 /* CC_SHA384.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5CD0BC6D67000878B42 /* CC_SHA384.3cc */; };
+		D6658DB00BD8178400D18063 /* CC_SHA384_Final.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5CE0BC6D67000878B42 /* CC_SHA384_Final.3cc */; };
+		D6658DB10BD8178400D18063 /* CC_SHA384_Init.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5CF0BC6D67000878B42 /* CC_SHA384_Init.3cc */; };
+		D6658DB20BD8178400D18063 /* CC_SHA384_Update.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5D00BC6D67000878B42 /* CC_SHA384_Update.3cc */; };
+		D6658DB30BD8178400D18063 /* CC_SHA512.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5D10BC6D67000878B42 /* CC_SHA512.3cc */; };
+		D6658DB40BD8178400D18063 /* CC_SHA512_Final.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5D20BC6D67000878B42 /* CC_SHA512_Final.3cc */; };
+		D6658DB50BD8178400D18063 /* CC_SHA512_Init.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5D30BC6D67000878B42 /* CC_SHA512_Init.3cc */; };
+		D6658DB60BD8178400D18063 /* CC_SHA512_Update.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5D40BC6D67000878B42 /* CC_SHA512_Update.3cc */; };
+		D6658DB70BD8178400D18063 /* CCCrypt.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5D50BC6D67000878B42 /* CCCrypt.3cc */; };
+		D6658DB80BD8178400D18063 /* CCCryptor.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5D60BC6D67000878B42 /* CCCryptor.3cc */; };
+		D6658DB90BD8178400D18063 /* CCCryptorCreate.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5D70BC6D67000878B42 /* CCCryptorCreate.3cc */; };
+		D6658DBA0BD8178400D18063 /* CCCryptorFinal.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5D80BC6D67000878B42 /* CCCryptorFinal.3cc */; };
+		D6658DBB0BD8178400D18063 /* CCCryptorGetOutputLength.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5D90BC6D67000878B42 /* CCCryptorGetOutputLength.3cc */; };
+		D6658DBC0BD8178400D18063 /* CCCryptorRelease.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5DA0BC6D67000878B42 /* CCCryptorRelease.3cc */; };
+		D6658DBD0BD8178400D18063 /* CCCryptorReset.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5DB0BC6D67000878B42 /* CCCryptorReset.3cc */; };
+		D6658DBE0BD8178400D18063 /* CCCryptorUpdate.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5DC0BC6D67000878B42 /* CCCryptorUpdate.3cc */; };
+		D6658DBF0BD8178400D18063 /* CCHmac.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5DD0BC6D67000878B42 /* CCHmac.3cc */; };
+		D6658DC00BD8178400D18063 /* CCHmacFinal.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5DE0BC6D67000878B42 /* CCHmacFinal.3cc */; };
+		D6658DC10BD8178400D18063 /* CCHmacInit.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5DF0BC6D67000878B42 /* CCHmacInit.3cc */; };
+		D6658DC20BD8178400D18063 /* CCHmacUpdate.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5E00BC6D67000878B42 /* CCHmacUpdate.3cc */; };
+		D6658DC30BD8178400D18063 /* CCryptorCreateFromData.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5E10BC6D67000878B42 /* CCryptorCreateFromData.3cc */; };
+		D6658DC40BD8178400D18063 /* Common Crypto.3cc in Copy Files */ = {isa = PBXBuildFile; fileRef = D671B5E20BC6D67000878B42 /* Common Crypto.3cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -620,14 +620,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		05CE94280A3784D4007C91D6 /* CopyFiles */ = {
+		05CE94280A3784D4007C91D6 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 8;
 			dstPath = /usr/local/OpenSourceVersions/;
 			dstSubfolderSpec = 0;
 			files = (
-				05CE942D0A37850A007C91D6 /* CommonCrypto.plist in CopyFiles */,
+				05CE942D0A37850A007C91D6 /* CommonCrypto.plist in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		05CE942F0A37850A007C91D6 /* CopyFiles */ = {
@@ -640,68 +641,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		D6658DC80BD817B600D18063 /* CopyFiles */ = {
+		D6658DC80BD817B600D18063 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 8;
 			dstPath = /usr/share/man/man3;
 			dstSubfolderSpec = 0;
 			files = (
-				D6658D950BD8178400D18063 /* CC_crypto.3cc in CopyFiles */,
-				D6658D960BD8178400D18063 /* CC_MD2.3cc in CopyFiles */,
-				D6658D970BD8178400D18063 /* CC_MD2_Final.3cc in CopyFiles */,
-				D6658D980BD8178400D18063 /* CC_MD2_Init.3cc in CopyFiles */,
-				D6658D990BD8178400D18063 /* CC_MD2_Update.3cc in CopyFiles */,
-				D6658D9A0BD8178400D18063 /* CC_MD4.3cc in CopyFiles */,
-				D6658D9B0BD8178400D18063 /* CC_MD4_Final.3cc in CopyFiles */,
-				D6658D9C0BD8178400D18063 /* CC_MD4_Init.3cc in CopyFiles */,
-				D6658D9D0BD8178400D18063 /* CC_MD4_Update.3cc in CopyFiles */,
-				D6658D9E0BD8178400D18063 /* CC_MD5.3cc in CopyFiles */,
-				D6658D9F0BD8178400D18063 /* CC_MD5_Final.3cc in CopyFiles */,
-				D6658DA00BD8178400D18063 /* CC_MD5_Init.3cc in CopyFiles */,
-				D6658DA10BD8178400D18063 /* CC_MD5_Update.3cc in CopyFiles */,
-				D6658DA20BD8178400D18063 /* CC_SHA.3cc in CopyFiles */,
-				D6658DA30BD8178400D18063 /* CC_SHA1.3cc in CopyFiles */,
-				D6658DA40BD8178400D18063 /* CC_SHA1_Final.3cc in CopyFiles */,
-				D6658DA50BD8178400D18063 /* CC_SHA1_Init.3cc in CopyFiles */,
-				D6658DA60BD8178400D18063 /* CC_SHA1_Update.3cc in CopyFiles */,
-				D6658DA70BD8178400D18063 /* CC_SHA224.3cc in CopyFiles */,
-				D6658DA80BD8178400D18063 /* CC_SHA224_Final.3cc in CopyFiles */,
-				D6658DA90BD8178400D18063 /* CC_SHA224_Init.3cc in CopyFiles */,
-				D6658DAA0BD8178400D18063 /* CC_SHA224_Update.3cc in CopyFiles */,
-				D6658DAB0BD8178400D18063 /* CC_SHA256.3cc in CopyFiles */,
-				D6658DAC0BD8178400D18063 /* CC_SHA256_Final.3cc in CopyFiles */,
-				D6658DAD0BD8178400D18063 /* CC_SHA256_Init.3cc in CopyFiles */,
-				D6658DAE0BD8178400D18063 /* CC_SHA256_Update.3cc in CopyFiles */,
-				D6658DAF0BD8178400D18063 /* CC_SHA384.3cc in CopyFiles */,
-				D6658DB00BD8178400D18063 /* CC_SHA384_Final.3cc in CopyFiles */,
-				D6658DB10BD8178400D18063 /* CC_SHA384_Init.3cc in CopyFiles */,
-				D6658DB20BD8178400D18063 /* CC_SHA384_Update.3cc in CopyFiles */,
-				D6658DB30BD8178400D18063 /* CC_SHA512.3cc in CopyFiles */,
-				D6658DB40BD8178400D18063 /* CC_SHA512_Final.3cc in CopyFiles */,
-				D6658DB50BD8178400D18063 /* CC_SHA512_Init.3cc in CopyFiles */,
-				D6658DB60BD8178400D18063 /* CC_SHA512_Update.3cc in CopyFiles */,
-				D6658DB70BD8178400D18063 /* CCCrypt.3cc in CopyFiles */,
-				D6658DB80BD8178400D18063 /* CCCryptor.3cc in CopyFiles */,
-				D6658DB90BD8178400D18063 /* CCCryptorCreate.3cc in CopyFiles */,
-				D6658DBA0BD8178400D18063 /* CCCryptorFinal.3cc in CopyFiles */,
-				D6658DBB0BD8178400D18063 /* CCCryptorGetOutputLength.3cc in CopyFiles */,
-				D6658DBC0BD8178400D18063 /* CCCryptorRelease.3cc in CopyFiles */,
-				D6658DBD0BD8178400D18063 /* CCCryptorReset.3cc in CopyFiles */,
-				D6658DBE0BD8178400D18063 /* CCCryptorUpdate.3cc in CopyFiles */,
-				D6658DBF0BD8178400D18063 /* CCHmac.3cc in CopyFiles */,
-				D6658DC00BD8178400D18063 /* CCHmacFinal.3cc in CopyFiles */,
-				D6658DC10BD8178400D18063 /* CCHmacInit.3cc in CopyFiles */,
-				D6658DC20BD8178400D18063 /* CCHmacUpdate.3cc in CopyFiles */,
-				D6658DC30BD8178400D18063 /* CCryptorCreateFromData.3cc in CopyFiles */,
-				D6658DC40BD8178400D18063 /* Common Crypto.3cc in CopyFiles */,
-				48F7B00112F248C900E70774 /* CCCalibratePBKDF.3cc in CopyFiles */,
-				48F7B00212F248C900E70774 /* CCCommonKeyDerivation.3cc in CopyFiles */,
-				48F7B00812F248E600E70774 /* CCKeyDerivationPBKDF.3cc in CopyFiles */,
-				48F7B00912F248E600E70774 /* CCSymmetricKeyUnwrap.3cc in CopyFiles */,
-				48F7B00A12F248E600E70774 /* CCSymmetricKeyWrap.3cc in CopyFiles */,
-				48F7B00B12F248E700E70774 /* CCSymmetricUnwrappedSize.3cc in CopyFiles */,
-				48F7B00C12F248E700E70774 /* CCSymmetricWrappedSize.3cc in CopyFiles */,
+				D6658D950BD8178400D18063 /* CC_crypto.3cc in Copy Files */,
+				D6658D960BD8178400D18063 /* CC_MD2.3cc in Copy Files */,
+				D6658D970BD8178400D18063 /* CC_MD2_Final.3cc in Copy Files */,
+				D6658D980BD8178400D18063 /* CC_MD2_Init.3cc in Copy Files */,
+				D6658D990BD8178400D18063 /* CC_MD2_Update.3cc in Copy Files */,
+				D6658D9A0BD8178400D18063 /* CC_MD4.3cc in Copy Files */,
+				D6658D9B0BD8178400D18063 /* CC_MD4_Final.3cc in Copy Files */,
+				D6658D9C0BD8178400D18063 /* CC_MD4_Init.3cc in Copy Files */,
+				D6658D9D0BD8178400D18063 /* CC_MD4_Update.3cc in Copy Files */,
+				D6658D9E0BD8178400D18063 /* CC_MD5.3cc in Copy Files */,
+				D6658D9F0BD8178400D18063 /* CC_MD5_Final.3cc in Copy Files */,
+				D6658DA00BD8178400D18063 /* CC_MD5_Init.3cc in Copy Files */,
+				D6658DA10BD8178400D18063 /* CC_MD5_Update.3cc in Copy Files */,
+				D6658DA20BD8178400D18063 /* CC_SHA.3cc in Copy Files */,
+				D6658DA30BD8178400D18063 /* CC_SHA1.3cc in Copy Files */,
+				D6658DA40BD8178400D18063 /* CC_SHA1_Final.3cc in Copy Files */,
+				D6658DA50BD8178400D18063 /* CC_SHA1_Init.3cc in Copy Files */,
+				D6658DA60BD8178400D18063 /* CC_SHA1_Update.3cc in Copy Files */,
+				D6658DA70BD8178400D18063 /* CC_SHA224.3cc in Copy Files */,
+				D6658DA80BD8178400D18063 /* CC_SHA224_Final.3cc in Copy Files */,
+				D6658DA90BD8178400D18063 /* CC_SHA224_Init.3cc in Copy Files */,
+				D6658DAA0BD8178400D18063 /* CC_SHA224_Update.3cc in Copy Files */,
+				D6658DAB0BD8178400D18063 /* CC_SHA256.3cc in Copy Files */,
+				D6658DAC0BD8178400D18063 /* CC_SHA256_Final.3cc in Copy Files */,
+				D6658DAD0BD8178400D18063 /* CC_SHA256_Init.3cc in Copy Files */,
+				D6658DAE0BD8178400D18063 /* CC_SHA256_Update.3cc in Copy Files */,
+				D6658DAF0BD8178400D18063 /* CC_SHA384.3cc in Copy Files */,
+				D6658DB00BD8178400D18063 /* CC_SHA384_Final.3cc in Copy Files */,
+				D6658DB10BD8178400D18063 /* CC_SHA384_Init.3cc in Copy Files */,
+				D6658DB20BD8178400D18063 /* CC_SHA384_Update.3cc in Copy Files */,
+				D6658DB30BD8178400D18063 /* CC_SHA512.3cc in Copy Files */,
+				D6658DB40BD8178400D18063 /* CC_SHA512_Final.3cc in Copy Files */,
+				D6658DB50BD8178400D18063 /* CC_SHA512_Init.3cc in Copy Files */,
+				D6658DB60BD8178400D18063 /* CC_SHA512_Update.3cc in Copy Files */,
+				D6658DB70BD8178400D18063 /* CCCrypt.3cc in Copy Files */,
+				D6658DB80BD8178400D18063 /* CCCryptor.3cc in Copy Files */,
+				D6658DB90BD8178400D18063 /* CCCryptorCreate.3cc in Copy Files */,
+				D6658DBA0BD8178400D18063 /* CCCryptorFinal.3cc in Copy Files */,
+				D6658DBB0BD8178400D18063 /* CCCryptorGetOutputLength.3cc in Copy Files */,
+				D6658DBC0BD8178400D18063 /* CCCryptorRelease.3cc in Copy Files */,
+				D6658DBD0BD8178400D18063 /* CCCryptorReset.3cc in Copy Files */,
+				D6658DBE0BD8178400D18063 /* CCCryptorUpdate.3cc in Copy Files */,
+				D6658DBF0BD8178400D18063 /* CCHmac.3cc in Copy Files */,
+				D6658DC00BD8178400D18063 /* CCHmacFinal.3cc in Copy Files */,
+				D6658DC10BD8178400D18063 /* CCHmacInit.3cc in Copy Files */,
+				D6658DC20BD8178400D18063 /* CCHmacUpdate.3cc in Copy Files */,
+				D6658DC30BD8178400D18063 /* CCryptorCreateFromData.3cc in Copy Files */,
+				D6658DC40BD8178400D18063 /* Common Crypto.3cc in Copy Files */,
+				48F7B00112F248C900E70774 /* CCCalibratePBKDF.3cc in Copy Files */,
+				48F7B00212F248C900E70774 /* CCCommonKeyDerivation.3cc in Copy Files */,
+				48F7B00812F248E600E70774 /* CCKeyDerivationPBKDF.3cc in Copy Files */,
+				48F7B00912F248E600E70774 /* CCSymmetricKeyUnwrap.3cc in Copy Files */,
+				48F7B00A12F248E600E70774 /* CCSymmetricKeyWrap.3cc in Copy Files */,
+				48F7B00B12F248E700E70774 /* CCSymmetricUnwrappedSize.3cc in Copy Files */,
+				48F7B00C12F248E700E70774 /* CCSymmetricWrappedSize.3cc in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -2162,6 +2164,9 @@
 /* Begin PBXProject section */
 		054BBEA605F6A8DE00344873 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+			};
 			buildConfigurationList = C27AD0910987FCDA001272E0 /* Build configuration list for PBXProject "CommonCrypto" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -2602,6 +2607,7 @@
 		05CE94320A37850A007C91D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				PRODUCT_NAME = "Copy Open Source Docs";
@@ -2614,7 +2620,7 @@
 			baseConfigurationReference = 12A1ADD71207419E000C30A4 /* CommonCrypto_localtest.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -2632,7 +2638,7 @@
 			baseConfigurationReference = 12A1ADD71207419E000C30A4 /* CommonCrypto_localtest.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -2650,6 +2656,7 @@
 			baseConfigurationReference = 12A1ADD71207419E000C30A4 /* CommonCrypto_localtest.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -2666,6 +2673,7 @@
 			baseConfigurationReference = 12A1ADD71207419E000C30A4 /* CommonCrypto_localtest.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -2680,6 +2688,34 @@
 		12F25D8511F7BF8A0036BC8E /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Development;
 		};
@@ -2687,7 +2723,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12FA10D311F7AB5000917A4E /* CommonCrypto_development.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
@@ -2705,7 +2743,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12FA10D111F7AAE400917A4E /* CommonCrypto_umbrellaMember_development.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				EXPORTED_SYMBOLS_FILE = Source/CommonCrypto.exp;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				OTHER_LDFLAGS = "";
 				SDKROOT = "";
 			};
@@ -2714,6 +2754,7 @@
 		12F25D8811F7BF8A0036BC8E /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				PRODUCT_NAME = "Copy Open Source Docs";
@@ -2725,12 +2766,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12790C7511F7C4BA0044EFE5 /* CommonCrypto_unittest_development.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
 				);
 				GCC_ENABLE_OBJC_GC = supported;
 				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 			};
 			name = Development;
 		};
@@ -2738,9 +2781,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12790C7511F7C4BA0044EFE5 /* CommonCrypto_unittest_development.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Unit Test World";
 				ZERO_LINK = NO;
 			};
@@ -2750,7 +2795,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12FA10D011F7AACE00917A4E /* CommonCrypto_umbrellaMember_deployment.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				EXPORTED_SYMBOLS_FILE = Source/CommonCrypto.exp;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				OTHER_CFLAGS = (
 					"-fstack-protector-all",
 					"-D__OPEN_SOURCE__",
@@ -2765,7 +2812,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12FA10D111F7AAE400917A4E /* CommonCrypto_umbrellaMember_development.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				EXPORTED_SYMBOLS_FILE = Source/CommonCrypto.exp;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				OTHER_CFLAGS = (
 					"-fstack-protector-all",
 					"-D__OPEN_SOURCE__",
@@ -2780,12 +2829,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12790C7411F7C4BA0044EFE5 /* CommonCrypto_unittest_deployment.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
 				);
 				GCC_ENABLE_OBJC_GC = supported;
 				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 			};
 			name = Release;
 		};
@@ -2793,7 +2844,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12790C7411F7C4BA0044EFE5 /* CommonCrypto_unittest_deployment.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				GCC_ENABLE_OBJC_GC = supported;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 			};
 			name = Release;
 		};
@@ -2801,7 +2854,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12790C7511F7C4BA0044EFE5 /* CommonCrypto_unittest_development.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				GCC_ENABLE_OBJC_GC = supported;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 			};
 			name = Development;
 		};
@@ -2810,6 +2865,7 @@
 			baseConfigurationReference = 12790C7411F7C4BA0044EFE5 /* CommonCrypto_unittest_deployment.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -2824,6 +2880,7 @@
 					AppKit,
 				);
 				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = CommonCryptoTestTool;
 				ZERO_LINK = NO;
 			};
@@ -2834,6 +2891,7 @@
 			baseConfigurationReference = 12790C7511F7C4BA0044EFE5 /* CommonCrypto_unittest_development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -2847,6 +2905,7 @@
 					Foundation,
 				);
 				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = CommonCryptoTestTool;
 			};
 			name = Development;
@@ -2855,9 +2914,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12790C7411F7C4BA0044EFE5 /* CommonCrypto_unittest_deployment.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Unit Test World";
 				ZERO_LINK = NO;
 			};
@@ -2867,7 +2928,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12FA10D011F7AACE00917A4E /* CommonCrypto_umbrellaMember_deployment.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				EXPORTED_SYMBOLS_FILE = Source/CommonCrypto.exp;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				OTHER_LDFLAGS = "";
 				SDKROOT = "";
 			};
@@ -2877,7 +2940,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12FA10D211F7AB3E00917A4E /* CommonCrypto_deployment.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
@@ -2894,7 +2959,32 @@
 		C27AD0930987FCDA001272E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 			};
 			name = Release;
 		};
